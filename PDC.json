@@ -1,0 +1,32 @@
+[
+  {
+    "nome": "Flash",
+    "numero": "93",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvCtU8QPABxJfMVShd6BEMU7wwmgwn92XNYV_KMcK_CQ&s=10",
+    "cargo": "Governador(a)"
+  },
+  {
+    "nome": "Superman",
+    "numero": "93",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfemj3Ov7Gx4HSvZmXwk01p3jVWavbThaOrrNQaegE2w&s=10",
+    "cargo": "Presidente"
+  },
+  {
+    "nome": "Mulher-Maravilha",
+    "numero": "937",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr0m3XtfK4yQyo8o5cYBSrFxVls98Ca8YpNNMbTMC6Xw&s=10",
+    "cargo": "Senador(a)"
+  },
+  {
+    "nome": "Lanterna Verde",
+    "numero": "93757",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgQUzF1yr4S1ucrgZXvEX3uPrfOPh_3mIl_FH3Uf0XIA&s=10",
+    "cargo": "Deputado(a) Estadual"
+  },
+  {
+    "nome": "Arqueiro Verde",
+    "numero": "9365",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSymuvpWh9sqgK0fc6YbIKQtpwqs-MOhZcUgIHE4jdp0Q&s=10",
+    "cargo": "Deputado(a) Federal"
+  }
+]

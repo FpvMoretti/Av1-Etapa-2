@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletrônica - Simulação 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header-controle">
+        <button class="btn-tse" onclick="encerrarVotacaoEEnviarTSE()">Encerrar votação e enviar ao TSE</button>
+    </div>
+
+    <div class="urna">
+        <div class="tela" id="tela">
+            <div id="conteudo-voto" style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
+                <div class="tela-topo">
+                    <div>
+                        <span>SEU VOTO PARA</span>
+                        <div class="cargo-titulo" id="lblCargo">Deputado Federal</div>
+                    </div>
+                    <img id="imgCandidato" class="foto-candidato" src="" alt="" style="display: none;">
+                </div>
+
+                <div class="quadrados-numero" id="containerDigitos" style="display: flex;"></div>
+
+                <div class="dados-candidato" id="dadosCandidato"></div>
+
+                <div class="tela-instrucoes" id="instrucoes">
+                    Aperte a tecla:<br>
+                    <strong>VERDE</strong> para CONFIRMAR<br>
+                    <strong>LARANJA</strong> para CORRIGIR
+                </div>
+            </div>
+        </div>
+
+        <div class="teclado">
+            <div class="teclado-topo">JUSTIÇA ELEITORAL</div>
+            <div class="teclado-linha">
+                <button class="btn-num" onclick="digitar('1')">1</button>
+                <button class="btn-num" onclick="digitar('2')">2</button>
+                <button class="btn-num" onclick="digitar('3')">3</button>
+            </div>
+            <div class="teclado-linha">
+                <button class="btn-num" onclick="digitar('4')">4</button>
+                <button class="btn-num" onclick="digitar('5')">5</button>
+                <button class="btn-num" onclick="digitar('6')">6</button>
+            </div>
+            <div class="teclado-linha">
+                <button class="btn-num" onclick="digitar('7')">7</button>
+                <button class="btn-num" onclick="digitar('8')">8</button>
+                <button class="btn-num" onclick="digitar('9')">9</button>
+            </div>
+            <div class="teclado-linha">
+                <button class="btn-num" onclick="digitar('0')">0</button>
+            </div>
+
+            <div class="teclado-acoes">
+                <button class="btn-acao btn-branco" onclick="votarBranco()">Branco</button>
+                <button class="btn-acao btn-corrige" onclick="corrigir()">Corrige</button>
+                <button class="btn-acao btn-confirma" onclick="confirmar()">Confirma</button>
+            </div>
+        </div>
+    </div>
+
+    <section id="boletim" class="boletim" hidden></section>
+
+    <script src="script.js"></script>
+</body>
+</html>

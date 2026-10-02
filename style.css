@@ -1,0 +1,97 @@
+:root {
+    --cor-urna: #d9d9d9;
+    --cor-tela: #cce3c1;
+    --cor-teclado: #222222;
+    --cor-botao-num: #111111;
+    --cor-branco: #ffffff;
+    --cor-corrige: #f05a28;
+    --cor-confirma: #00a651;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-controle { margin-bottom: 20px; }
+
+.btn-tse {
+    background-color: #003366; color: white; border: none; padding: 12px 20px;
+    font-size: 1rem; font-weight: bold; border-radius: 5px; cursor: pointer;
+}
+.btn-tse:hover { background-color: #002244; }
+
+.urna {
+    background-color: var(--cor-urna); border: 2px solid #b2b2b2; border-radius: 10px;
+    padding: 25px; display: flex; gap: 30px; box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    width: 850px; box-sizing: border-box;
+}
+
+.tela {
+    background-color: var(--cor-tela); border: 2px solid #777; border-radius: 5px;
+    flex: 1; height: 380px; padding: 20px; display: flex; flex-direction: column;
+    justify-content: space-between; box-sizing: border-box; position: relative;
+}
+
+.tela-topo { display: flex; justify-content: space-between; }
+.cargo-titulo { font-size: 1.2rem; font-weight: bold; text-transform: uppercase; margin-top: 5px; }
+
+.quadrados-numero { display: flex; gap: 5px; margin-top: 15px; align-items: center; height: 45px; }
+.digito {
+    width: 30px; height: 40px; border: 2px solid #000; display: flex;
+    justify-content: center; align-items: center; font-size: 1.5rem;
+    font-weight: bold; background-color: rgba(255, 255, 255, 0.4);
+}
+.digito.pisca { animation: pisca 1s infinite; }
+
+@keyframes pisca {
+    0%, 100% { border-color: #000; }
+    50% { border-color: transparent; }
+}
+
+.dados-candidato { margin-top: 15px; font-size: 0.95rem; line-height: 1.4; min-height: 80px; }
+.foto-candidato { width: 100px; height: 120px; border: 1px solid #000; background-color: #fff; object-fit: cover; }
+
+.tela-instrucoes { border-top: 1px solid #000; padding-top: 5px; font-size: 0.75rem; line-height: 1.2; }
+.mensagem-centro { font-size: 2rem; font-weight: bold; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; text-align: center; }
+.mensagem-fim { font-size: 5rem; font-weight: bold; display: flex; justify-content: center; align-items: center; height: 100%; }
+
+.teclado {
+    background-color: var(--cor-teclado); padding: 20px; border-radius: 5px;
+    display: flex; flex-direction: column; gap: 12px; width: 260px;
+}
+
+.teclado-topo { color: #fff; text-align: right; font-size: 0.8rem; font-weight: bold; letter-spacing: 1px; margin-bottom: 5px; }
+.teclado-linha { display: flex; justify-content: center; gap: 12px; }
+.btn-num {
+    background-color: var(--cor-botao-num); color: white; border: none; width: 55px;
+    height: 45px; font-size: 1.4rem; font-weight: bold; border-radius: 5px;
+    cursor: pointer; box-shadow: 0 3px 0 #000;
+}
+.btn-num:active { transform: translateY(2px); box-shadow: 0 1px 0 #000; }
+
+.teclado-acoes { display: flex; justify-content: space-between; gap: 8px; margin-top: 10px; }
+.btn-acao {
+    flex: 1; height: 45px; border: none; font-weight: bold; font-size: 0.75rem;
+    text-transform: uppercase; border-radius: 3px; cursor: pointer; box-shadow: 0 3px 0 #000;
+}
+
+.btn-branco { background-color: var(--cor-branco); color: #000; }
+.btn-corrige { background-color: var(--cor-corrige); color: #000; }
+.btn-confirma { background-color: var(--cor-confirma); color: #000; height: 52px; align-self: flex-end; }
+
+/* ===== Boletim de Urna (Bônus 1) ===== */
+.boletim { width: 850px; max-width: 100%; box-sizing: border-box; margin-top: 25px; background: #fff; border: 2px solid #b2b2b2; border-radius: 10px; padding: 25px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
+.boletim[hidden] { display: none; }
+.boletim h2 { margin: 0 0 5px; color: #003366; }
+.boletim .resumo { margin: 0 0 20px; color: #444; font-size: 0.9rem; }
+.boletim h3 { margin: 22px 0 8px; padding-bottom: 4px; border-bottom: 2px solid #003366; font-size: 1.05rem; }
+.boletim table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.boletim th, .boletim td { padding: 6px 8px; border-bottom: 1px solid #ddd; text-align: left; }
+.boletim th:last-child, .boletim td:last-child { text-align: right; width: 90px; }
+.boletim tr.especial td { color: #555; font-style: italic; }
+.boletim tr.lider td { font-weight: bold; }

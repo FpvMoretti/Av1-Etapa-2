@@ -1,0 +1,64 @@
+{
+  "PDisney": [
+    {
+      "nome": "Mickey Mouse",
+      "numero": "91",
+      "foto": "https://www.elchiguirebipolar.net/wp/wp-content/uploads/2020/11/MONTAJE-Tras-llegada-de-Disney-Mickey-Mouse-asume-presidencia-del-Peru%CC%81.jpg",
+      "cargo": "Presidente"
+    },
+    {
+      "nome": "Tio Patinhas",
+      "numero": "91",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0_YdK8ZZw5yh4UNVqyMenLWskgP8u6VSuv3i1pGbgZg&s=10",
+      "cargo": "Governador(a)"
+    },
+    {
+      "nome": "Minnie Mouse",
+      "numero": "916",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUwtcbj0Sz3WN_bfQRP0waoZhxpuDYY3syU8mDzqq1IQ&s=10",
+      "cargo": "Senador(a)"
+    },
+    {
+      "nome": "Pluto",
+      "numero": "919",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRqpKKzNuMnQxo5qfzSUUicMsL9UYaYqwcbXEDqTqUpQ&s=10",
+      "cargo": "Senador(a)"
+    },
+    {
+      "nome": "Mago Merlin",
+      "numero": "9133",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8XzIdbujBT2grGDGgzFBoFP5GcGlx7_gMK6NFVy9ouw&s=10",
+      "cargo": "Deputado(a) Federal"
+    },
+    {
+      "nome": "Zé Carioca",
+      "numero": "9157",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIwvFMFOA-LrhqMgASV63RIvuiJwQhagW-e7OGNIc-DQ&s=10",
+      "cargo": "Deputado(a) Federal"
+    },
+    {
+      "nome": "Pato Donald",
+      "numero": "9100",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjByk37-9tHlGi31lOHiYoZVbaXTUmb7be4OgnFB0MAg&s=10",
+      "cargo": "Deputado(a) Federal"
+    },
+    {
+      "nome": "Pateta",
+      "numero": "91080",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMxDDsSa5oIea6xYR8XEhwXUpXBXoORGtmDY_thgQdig&s=10",
+      "cargo": "Deputado(a) Estadual"
+    },
+    {
+      "nome": "Margarida",
+      "numero": "91750",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSthXXwtSJnKAKwTeEV2UK6ahPRkJBddiq4B4SrakvWsw&s=10",
+      "cargo": "Deputado(a) Estadual"
+    },
+    {
+      "nome": "Gastão",
+      "numero": "91777",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Zd3QwwdPfR6-q08vz7PxPP_QtvdclMZmO_wLWmZvgg&s=10",
+      "cargo": "Deputado(a) Estadual"
+    }
+  ]
+}

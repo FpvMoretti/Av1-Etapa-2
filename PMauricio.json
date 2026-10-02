@@ -1,0 +1,44 @@
+[
+    {
+        "nome": "Mônica",
+        "numero": "94",
+        "foto": "https://i.pinimg.com/1200x/da/b7/ca/dab7cab4389e272c1e7e778698ca928d.jpg",
+        "cargo": "Presidente"
+    },
+    {
+        "nome": "Cebolinha",
+        "numero": "94",
+        "foto": "https://pbs.twimg.com/profile_images/1813720201952645120/ROJX0xqc_400x400.jpg",
+        "cargo": "Governador(a)"
+    },
+    {
+        "nome": "Cascão",
+        "numero": "940",
+        "foto": "https://i.pinimg.com/564x/54/a5/76/54a576b96c941f11b6927ecbd4f111fc.jpg",
+        "cargo": "Senador(a)"
+    },
+    {
+        "nome": "Magali",
+        "numero": "941",
+        "foto": "https://i.pinimg.com/236x/85/4d/6e/854d6e8fc0707d7c2f750ebac9bfa0bc.jpg",
+        "cargo": "Senador(a)"
+    },
+    {
+        "nome": "Chico Bento",
+        "numero": "9444",
+        "foto": "https://diarioliberdade.org/archivos/Administradores/diego/2012-10/Chico_Bento_labrego.jpg",
+        "cargo": "Deputado(a) Federal"
+    },
+    {
+        "nome": "Franjinha",
+        "numero": "9477",
+        "foto": "https://caua1000.wordpress.com/wp-content/uploads/2013/11/franjinha.jpg",
+        "cargo": "Deputado(a) Federal"
+    },
+    {
+        "nome": "Bidú",
+        "numero": "94094",
+        "foto": "https://static.wikia.nocookie.net/seriadoturmadamonica/images/5/56/Bidu.jpg/revision/latest?cb=20130501205315&path-prefix=pt-br",
+        "cargo": "Deputado(a) Estadual"
+    }
+]

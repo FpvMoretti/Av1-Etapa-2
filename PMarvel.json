@@ -1,0 +1,38 @@
+[
+  {
+    "nome": "Homem de Ferro",
+    "cargo": "Presidente",
+    "numero": "92",
+    "foto": "https://i.pinimg.com/736x/f7/de/83/f7de83047763ec3c4fd7903c8f742e66.jpg"
+  },
+  {
+    "nome": "Capitão América",
+    "cargo": "Governador(a)",
+    "numero": "92",
+    "foto": "https://wallpapers.com/images/featured/imagens-do-capitao-america-blcbyvbnydx5y9wb.jpg"
+  },
+  {
+    "nome": "Thor",
+    "cargo": "Senador(a)",
+    "numero": "924",
+    "foto": "https://static.wikia.nocookie.net/heroisfanfiction/images/c/c6/Thor.jpeg/revision/latest?cb=20171230201328&path-prefix=pt-br"
+  },
+  {
+    "nome": "Capitã Marvel",
+    "cargo": "Senador(a)",
+    "numero": "926",
+    "foto": "https://i.pinimg.com/736x/a4/bf/bc/a4bfbce08e62c0afcbf25f0b4e6dbbfb.jpg"
+  },
+  {
+    "nome": "Hulk",
+    "cargo": "Deputado(a) Federal",
+    "numero": "9222",
+    "foto": "https://upload.wikimedia.org/wikipedia/pt/a/aa/Hulk_%28circa_2019%29.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original"
+  },
+  {
+    "nome": "Pantera Negra",
+    "cargo": "Deputado(a) Estadual",
+    "numero": "92922",
+    "foto": "https://hqrock.com.br/wp-content/uploads/2018/02/black-panther-standart-image-full.jpg?w=616"
+  }
+]
